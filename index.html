@@ -4,8 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissor</title>
+    <script src="./play.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <h1>Rock Paper Scissors</h1>
+    <button class="button" onclick="playerSelect('rock')">Rock</button>
+    <button class="button" onclick="playerSelect('paper')">Paper</button>
+    <button class="button" onclick="playerSelect('scissors')">Scissors</button>
     
+    <div id="result"></div>
+    <div id="score">
+        Wins: <span id="wins">0</span><br>
+        Losses: <span id="losses">0</span><br>
+        Ties: <span id="ties">0</span>
+    </div>
+    <div id="timer">Time left: <span id="timeLeft">10</span> seconds</div>
 </body>
 </html>
