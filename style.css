@@ -1,0 +1,46 @@
+/* Universal Variables */
+*{
+    background-color: rgba(53, 52, 52, 0.733);
+}
+/* body color */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    border: dotted;
+}
+  /* Buttons  */
+.button {
+    text-shadow: 0 0 20px #05e9f0;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color: aqua;
+}
+
+ /* Result  */
+
+#result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ /* Score  */
+
+#score {
+    margin-top: 20px;
+    font-size: 20px;
+    color: aquamarine;
+}
+
+ /* Time  */
+
+#timer {
+    text-shadow: 0 0  5px #ff2525;
+    font-size: 20px;
+    color: rgb(251, 5, 5);
+    font-weight: 100;
+    
+}
