@@ -59,7 +59,7 @@ function startTimer() {
         }
     }, 1000);
 }
-// function player select
+// function player
 function playerSelect(playerChoice) {
     clearInterval(timer); // Stop the timer when the player makes a choice
     playGame(playerChoice);
