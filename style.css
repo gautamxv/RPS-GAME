@@ -1,6 +1,7 @@
 /* Universal Variables */
 *{
-    background-color: rgba(53, 52, 52, 0.733);
+    background-image: url(./5053309.jpg);
+    background-size: cover;
 }
 /* body color */
 body {
@@ -8,6 +9,7 @@ body {
     text-align: center;
     margin-top: 50px;
     border: dotted;
+    color: aquamarine;
 }
   /* Buttons  */
 .button {
